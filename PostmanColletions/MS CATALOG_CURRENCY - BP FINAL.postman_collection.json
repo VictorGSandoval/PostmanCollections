@@ -1,0 +1,120 @@
+{
+	"info": {
+		"_postman_id": "04f0ff39-2418-41f1-bdee-3aa19b987955",
+		"name": "MS CATALOG_CURRENCY | BP FINAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8100/catalogcurrency",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8100/catalogcurrency",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"catalogcurrency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/catalogcurrency",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currencyName\":\"Bootcoin\",\r\n    \"currencyReference\":\"Soles\",\r\n    \"amountBuy\":4.31,\r\n    \"amountSale\":4.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8100/catalogcurrency/6220f232cec6be26d765ef20",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"catalogcurrency",
+						"6220f232cec6be26d765ef20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/catalogcurrency",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"currencyName\":\"bootcoin\",\r\n    \"currencyReference\":\"Soles\",\r\n    \"amountBuy\":4.31,\r\n    \"amountSale\":4.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8100/catalogcurrency",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"catalogcurrency"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/catalogcurrency",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8100/catalogcurrency/6220f18fe9ed6b343b678830",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"catalogcurrency",
+						"6220f18fe9ed6b343b678830"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8100/catalogcurrency/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8100/catalogcurrency/6220f232cec6be26d765ef20",
+					"host": [
+						"localhost"
+					],
+					"port": "8100",
+					"path": [
+						"catalogcurrency",
+						"6220f232cec6be26d765ef20"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
